@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ServiceManager">
+      <UniqueIdentifier>{43a46de5-b1eb-47d0-a94c-59a8a3550e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HeartBeat">
+      <UniqueIdentifier>{dc07f1e4-34b8-40b9-a044-6dab901e5cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NamedPipe">
+      <UniqueIdentifier>{3153aa4d-ae6f-44d4-8452-59e87f94a36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{ae34941e-10cf-4935-882b-c2d89e86beaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScanInterface">
+      <UniqueIdentifier>{faabc429-d796-48b8-b066-a84569e8deda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{2c3aecdb-7cda-4b80-be3f-e8efa3c64369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form">
+      <UniqueIdentifier>{eae7e203-611a-472c-a5e5-5e98995b5aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{44bd614a-6c31-40a2-ad76-cc44e2ca7416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\XorStr">
+      <UniqueIdentifier>{3ac324a7-ea8b-4cc7-b9db-4e8991c1d803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\AES">
+      <UniqueIdentifier>{884d54ad-ae6b-4e1d-943b-6420a3ce6b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{10375c84-ec0b-4ac0-8f8e-9933731c7743}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>ServiceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeClient.cpp">
+      <Filter>NamedPipe</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="DigitalSignatureScan.cpp">
+      <Filter>ScanInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Form</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\AES\AES.cpp">
+      <Filter>ThirdParty\AES</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientNetwork.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>ServiceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugTools.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Formulas.h">
+      <Filter>HeartBeat</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeClient.h">
+      <Filter>NamedPipe</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="DigitalSignatureScan.h">
+      <Filter>ScanInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="MainForm.h">
+      <Filter>Form</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\XorStr\XorStr.h">
+      <Filter>ThirdParty\XorStr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\AES\AES.h">
+      <Filter>ThirdParty\AES</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientNetwork.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
